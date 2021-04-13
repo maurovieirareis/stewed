@@ -48,3 +48,4 @@ The Stewed is open-sourced software licensed under the [MIT license](http://open
 
 Created with ♥️ by [@mauroreisvieira](https://twitter.com/mauroreisvieira) in **Portugal**,
 thanks to [other contributors](https://github.com/mauroreisvieira/stewed/graphs/contributors)
+
