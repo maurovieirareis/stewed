@@ -1,0 +1,149 @@
+/* stylelint-disable selector-max-universal, selector-max-type */
+* {
+  box-sizing: border-box; }
+
+html {
+  font-family: system-ui, -apple-system;
+  font-size: 18px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+
+.app {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 72px; }
+
+.demo {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px; }
+
+.theme-scope .alert {
+  --alert-border-radius: 8px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  border-radius: var(--alert-border-radius);
+  background-color: var(--alert-bg);
+  color: var(--alert-color); }
+  .theme-scope .alert--primary {
+    --alert-bg: #b2b9e1;
+    --alert-color: #3949a3; }
+  .theme-scope .alert--success {
+    --alert-bg: #b7dfb9;
+    --alert-color: #449e48; }
+  .theme-scope .alert--warning {
+    --alert-bg: #ffe69e;
+    --alert-color: #e6ae0c; }
+  .theme-scope .alert--danger {
+    --alert-bg: #fbb4af;
+    --alert-color: #dc3c31; }
+
+.theme-scope .button {
+  --button-border-radius: 8px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--button-size);
+  padding: 0 var(--button-spacing);
+  border: none;
+  border-radius: var(--button-border-radius);
+  background-color: var(--button-bg);
+  color: #fff;
+  font-size: var(--button-font-size);
+  font-weight: 400;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: top;
+  touch-action: manipulation; }
+  .theme-scope .button:hover {
+    background-color: var(--button-bg-hover); }
+  .theme-scope .button:focus {
+    outline: 2px solid transparent;
+    box-shadow: #fff 0 0 0 2px, var(--button-focus) 0 0 0 4px; }
+  .theme-scope .button:disabled, .theme-scope .button.is-disabled {
+    opacity: 0.3;
+    pointer-events: none; }
+  .theme-scope .button--sm {
+    --button-size: 32px;
+    --button-spacing: 8px;
+    --button-font-size: 14px; }
+  .theme-scope .button--md {
+    --button-size: 40px;
+    --button-spacing: 16px;
+    --button-font-size: 16px; }
+  .theme-scope .button--lg {
+    --button-size: 48px;
+    --button-spacing: 24px;
+    --button-font-size: 18px; }
+  .theme-scope .button--rounded {
+    --button-border-radius: 32px;
+    min-width: var(--button-size); }
+  .theme-scope .button--primary {
+    --button-bg: #3f51b5;
+    --button-bg-hover: #3949a3;
+    --button-focus: #b2b9e1; }
+  .theme-scope .button--success {
+    --button-bg: #4caf50;
+    --button-bg-hover: #449e48;
+    --button-focus: #b7dfb9; }
+  .theme-scope .button--warning {
+    --button-bg: #ffc10d;
+    --button-bg-hover: #e6ae0c;
+    --button-focus: #ffe69e; }
+  .theme-scope .button--danger {
+    --button-bg: #f44336;
+    --button-bg-hover: #dc3c31;
+    --button-focus: #fbb4af; }
+
+.theme-scope .input {
+  --input-border-radius: 8px;
+  --input-size: 40px;
+  --input-spacing: 16px;
+  --input-font-size: 16px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--input-size);
+  padding: 0 var(--input-spacing);
+  border: 2px solid var(--input-border);
+  border-radius: var(--input-border-radius);
+  font-size: var(--input-font-size);
+  font-weight: 400;
+  touch-action: manipulation; }
+  .theme-scope .input:hover {
+    border-color: var(--input-border-hover); }
+  .theme-scope .input:focus-within {
+    outline: 2px solid transparent;
+    box-shadow: #fff 0 0 0 2px, var(--input-focus) 0 0 0 4px; }
+  .theme-scope .input:disabled {
+    opacity: 0.3;
+    pointer-events: none; }
+  .theme-scope .input--primary {
+    --input-border: #3f51b5;
+    --input-border-hover: #3949a3;
+    --input-focus: #b2b9e1; }
+  .theme-scope .input--success {
+    --input-border: #4caf50;
+    --input-border-hover: #449e48;
+    --input-focus: #b7dfb9; }
+  .theme-scope .input--warning {
+    --input-border: #ffc10d;
+    --input-border-hover: #e6ae0c;
+    --input-focus: #ffe69e; }
+  .theme-scope .input--danger {
+    --input-border: #f44336;
+    --input-border-hover: #dc3c31;
+    --input-focus: #fbb4af; }
+
+
+/*# sourceMappingURL=/src.fc45d0fd.css.map */
